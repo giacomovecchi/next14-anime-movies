@@ -29,7 +29,7 @@ const AnimeCard = async ({ anime, index }: Prop) => {
       <div className="flex max-w-44 flex-col gap-3">
         <div className="relative w-44 rounded">
           <div className="relative h-64 w-full">
-            <p className="absolute right-1 top-1 z-10 rounded-xl bg-white px-2 text-red-500 shadow-lg">
+            <p className="absolute right-1 top-1 z-10 rounded-xl bg-white/60 px-2 font-semibold text-red-600 backdrop-blur-sm">
               {anime.status}
             </p>
             <Image
